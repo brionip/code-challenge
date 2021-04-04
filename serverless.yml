@@ -9,7 +9,7 @@ plugins:
 custom:
   client: 
     bucketName: brionpereira-s3-test1
-    distributionFolder: frontend
+    distributionFolder: frontend/build
 
 provider:
   name: aws
