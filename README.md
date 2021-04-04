@@ -50,4 +50,5 @@ Follow the comments in app.js file to enter REST API endpoints.<br>
 
 
 * Deploy the frontend code <br>
-`serverless client deploy`
+`serverless client deploy` <br>
+Click on the S3 link to browse the frontend. :)
