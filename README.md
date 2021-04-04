@@ -40,7 +40,14 @@ This project is a demonstration of working with Serverless framework to deploy a
 * Deploy the project code <br>
 `serverless deploy`
 
-* Enter the API Endpoint in the frontend code <br>
+* Enter the REST API endpoint in the frontend code <br>
+Make the following changes to post and get data from the API in app.js file:
+. <br>
+├─ frontend/src/app.js <br>
+Follow the comments in app.js file to enter REST API endpoints.<br>
+- Compile the frontend code <br>
+`npm run build` 
+
 
 * Deploy the frontend code <br>
 `serverless client deploy`
