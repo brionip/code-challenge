@@ -33,6 +33,7 @@ class App extends React.Component {
 
   handleClick() {
     const data = { text: this.state.name };
+    //fetch(" ENTER THE POST API HERE ", {
     fetch("https://9wbc8szixb.execute-api.ap-southeast-2.amazonaws.com/dev/todos", {
       method: 'POST',
       headers: {
@@ -60,6 +61,7 @@ class App extends React.Component {
   }
 
   populateList() {
+    //fetch("ENTR THE GET API HERE")
     fetch("https://9wbc8szixb.execute-api.ap-southeast-2.amazonaws.com/dev/todos")
       .then(res => res.json())
       .then(
@@ -94,7 +96,7 @@ onTodoChange(value){
     <div className="App">
       <header className="App-header">
         <h1>
-          Broin's application
+          Test application
         </h1>
         <h3>POST request</h3>
         <b>{message}</b>
@@ -104,7 +106,7 @@ onTodoChange(value){
         </label>
         <div>
         <button onClick={this.handleClick}>
-        Make a POST request
+        Make a POST
         </button>
         </div>
         <hr width='80%'/>
