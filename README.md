@@ -14,7 +14,7 @@ This project is a demonstration of working with Serverless framework to deploy a
 	1. Function: Lambda function <br>
 	2. Events: It contains the API Gateway details such request type, CORS, etc <br>
 	3. Resource: It has Dyanamo table declaration such as table name, attributes, schema. <br>
-	4. IAM Role statement: It is set of instruction to give appropriate rights to the resources. <br>
+	4. IAM Role statement: It is set of instruction to give appropriate rights to the resources which ensures the security of the application overall. <br>
 -	Please refer the architecture overview diagram below: 
 
 ![alt text](https://github.com/brionip/code-challenge/blob/master/AWS-Diagram.png "Architecture Overview Diagram")
